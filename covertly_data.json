@@ -161,6 +161,21 @@
               "value": "stereo"
             }
           ]
+        },
+        {
+          "name": "Audio Test",
+          "type": "dropdown",
+          "defaultValue": "Auto",
+          "values": [
+            {
+              "name": "Mono",
+              "value": "mono"
+            },
+            {
+              "name": "Stereo",
+              "value": "stereo"
+            }
+          ]
         }
       ]
     }
