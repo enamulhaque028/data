@@ -99,6 +99,15 @@
           "name": "Enter Max File Size",
           "type": "textfield",
           "placeholder": "Max size"
+        },
+        {
+          "name": "Select Range",
+          "type": "slider",
+          "minValue": 0.0,
+          "maxValue": 100.0,
+          "interval": 20,
+          "defaultStartVal": 40.0,
+          "defaultEndVal": 80.0
         }
       ]
     },
