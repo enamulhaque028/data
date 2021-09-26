@@ -108,6 +108,10 @@
           "interval": 20,
           "defaultStartVal": 40.0,
           "defaultEndVal": 80.0
+        },
+        {
+          "name": "Check Box",
+          "type": "checkbox"
         }
       ]
     },
