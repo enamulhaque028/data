@@ -98,7 +98,7 @@
         {
           "name": "Enter Max File Size",
           "type": "textfield",
-          "placeholder": "10 kb"
+          "placeholder": "Max size"
         }
       ]
     },
