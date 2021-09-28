@@ -1,4 +1,71 @@
 [
+  {
+    "sectionName": "Audio options",
+    "id": 2,
+    "settings": [
+      {
+        "name": "Audio Codec",
+        "type": "dropdown",
+        "defaultValue": "Auto",
+        "values": [
+          {
+            "name": "ACC",
+            "value": "acc"
+          },
+          {
+            "name": "MP2",
+            "value": "mp2"
+          },
+          {
+            "name": "MP3",
+            "value": "mp3"
+          }
+        ]
+      },
+      {
+        "name": "Audio Bitrate",
+        "type": "dropdown",
+        "defaultValue": "Auto",
+        "values": [
+          {
+            "name": "8 kbps",
+            "value": "8"
+          },
+          {
+            "name": "16 kbps",
+            "value": "16"
+          },
+          {
+            "name": "32 kbps",
+            "value": "32"
+          },
+          {
+            "name": "48 kbps",
+            "value": "48"
+          },
+          {
+            "name": "56 kbps",
+            "value": "56"
+          }
+        ]
+      },
+      {
+        "name": "Audio Channel",
+        "type": "dropdown",
+        "defaultValue": "Auto",
+        "values": [
+          {
+            "name": "Mono",
+            "value": "mono"
+          },
+          {
+            "name": "Stereo",
+            "value": "stereo"
+          }
+        ]
+      }
+    ]
+  },
     {
       "sectionName": "Video options",
       "id": 1,
