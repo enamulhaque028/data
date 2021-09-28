@@ -137,6 +137,11 @@
           "type": "colorpicker",
           "id": 9,
           "defaultColor": "0xff443a49"
+        },
+        {
+          "name": "Upload your file",
+          "type": "fileuploader",
+          "id": 10
         }
       ]
     },
