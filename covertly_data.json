@@ -126,7 +126,7 @@
           "name": "Select an option",
           "type": "radiobutton",
           "id": 8,
-          "values": [
+          "optionValues": [
             "option A",
             "option B",
             "option C"
