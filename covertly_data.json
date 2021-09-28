@@ -6,6 +6,7 @@
         {
           "name": "Video Codec",
           "type": "dropdown",
+          "id": 1,
           "defaultValue": "auto",
           "values": [
             {
@@ -25,6 +26,7 @@
         {
           "name": "Video Screen Size",
           "type": "dropdown",
+          "id": 2,
           "defaultValue": "240 x 160",
           "values": [
             {
@@ -52,6 +54,7 @@
         {
           "name": "Video Aspect Ratio",
           "type": "dropdown",
+          "id": 3,
           "defaultValue": "1 : 1",
           "values": [
             {
@@ -75,6 +78,7 @@
         {
           "name": "Video Frame Rate",
           "type": "dropdown",
+          "id": 4,
           "defaultValue": "1 fps",
           "values": [
             {
@@ -98,11 +102,13 @@
         {
           "name": "Enter Max File Size",
           "type": "textfield",
+          "id": 5,
           "placeholder": "Max size"
         },
         {
           "name": "Select Range",
           "type": "slider",
+          "id": 6,
           "minValue": 0.0,
           "maxValue": 100.0,
           "interval": 20,
@@ -111,7 +117,26 @@
         },
         {
           "name": "Check Box",
-          "type": "checkbox"
+          "type": "checkbox",
+          "id": 7,
+          "title": "Do you agree?",
+          "defaultValue": false
+        },
+        {
+          "name": "Select an option",
+          "type": "radiobutton",
+          "id": 8,
+          "values": [
+            "option A",
+            "option B",
+            "option C"
+          ]
+        },
+        {
+          "name": "Pick a color",
+          "type": "colorpicker",
+          "id": 9,
+          "defaultColor": "0xff443a49"
         }
       ]
     },
