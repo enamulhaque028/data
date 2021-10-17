@@ -106,6 +106,12 @@
           "placeholder": "Max size"
         },
         {
+          "name": "Enter Min File Size",
+          "type": "textfield",
+          "id": 100,
+          "placeholder": "Min size"
+        },
+        {
           "name": "Select Range",
           "type": "slider",
           "id": 6,
