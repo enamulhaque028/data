@@ -103,18 +103,21 @@
           "name": "Enter Max File Size",
           "type": "textfield",
           "id": 5,
+          "defaultValue": "10 MB",
           "placeholder": "Max size"
         },
         {
           "name": "Enter Min File Size",
           "type": "textfield",
           "id": 100,
+          "defaultValue": "2 MB",
           "placeholder": "Min size"
         },
         {
           "name": "Select Range",
           "type": "slider",
           "id": 6,
+          "defaultValue": "40.0-80.0",
           "minValue": 0.0,
           "maxValue": 100.0,
           "interval": 20,
@@ -132,6 +135,7 @@
           "name": "Select an option",
           "type": "radiobutton",
           "id": 8,
+          "defaultValue": "option A",
           "optionValues": [
             "option A",
             "option B",
@@ -142,6 +146,7 @@
           "name": "Pick a color",
           "type": "colorpicker",
           "id": 9,
+          "defaultValue": "0xff443a49",
           "defaultColor": "0xff443a49"
         },
         {
